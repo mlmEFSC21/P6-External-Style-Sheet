@@ -1,0 +1,43 @@
+:root {
+    /* --clr-font: black; */
+    --clr-background: #2e9df7;
+    --clr-button: #ffc907;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+}
+body {
+    background-color: var(--clr-background);
+    color: black;
+    margin: 10px 25px;
+    padding: 15px;
+    place-items: center;
+}
+p {
+    padding: 10px;
+}
+.p1 {
+    border: 2.5px solid white;
+    float: left;
+    width: 50%;
+}
+.p2 {
+    border: 2.5px solid white;
+    float: right;
+    width: 50%;
+}
+.button {
+    display: block;
+    border: 1px solid white;
+    padding: 10px;
+    width: 75px;
+    text-align: center;
+    clear: both;
+}

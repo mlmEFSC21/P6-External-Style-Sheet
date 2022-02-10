@@ -1,0 +1,39 @@
+:root {
+    /* --clr-font: black; */
+    --clr-background: #2e9df7;
+    --clr-button: #ffc907;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+}
+body {
+    background-color: var(--clr-background);
+    color: black;
+    margin: 10px;
+    padding: 5px;
+}
+div {
+    margin: 15px;
+    padding: 10px;
+}
+.p1 {
+    float: left;
+    width: 50%;
+}
+.p2 {
+    float: right;
+    width: 50%;
+}
+.button {
+    border: 1px solid white;
+    width: 75px;
+    text-align: center;
+    float: right;
+}

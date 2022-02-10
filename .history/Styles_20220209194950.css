@@ -1,0 +1,12 @@
+:root {
+    --clr-font: black;
+    --clr-background: #ffc907;
+    --clr-button: #2e9df7;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,51 @@
+:root {
+    /* --clr-font: black; */
+    --clr-background: #ffe9e3;
+    --clr-buttonBG: #c4c1e0;
+    --clr-buttonHover: #7c73e6;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+}
+body {
+    background-color: var(--clr-background);
+    color: black;
+    margin: 10px 25px;
+    padding: 15px;
+}
+p {
+    padding: 10px;
+    background-color: var(--clr-buttonBG);
+}
+.p1 {
+    border: 2.5px solid black;
+    float: left;
+    width: 50%;
+}
+.p2 {
+    border: 2.5px solid black;
+    float: right;
+    width: 50%;
+}
+.button {
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    width: 75px;
+    background-color: var(--clr-buttonBG);
+    color: var(--clr-button);
+    text-align: center;
+    clear: both;
+}
+.button:hover {
+    background-color: var(--clr-button);
+    color: var(var(--clr-background));
+}

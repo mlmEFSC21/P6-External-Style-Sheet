@@ -1,0 +1,16 @@
+:root {
+    --clr-font: black;
+    --clr-background: #2e9df7;
+    --clr-button: #ffc907;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--clr-background);
+    color: FFF;
+}
