@@ -46,7 +46,7 @@ div.button {
     justify-content: center;
     align-items: center;
 }
-.button {
+a.button {
     border: 1px solid black;
     border-radius: 4px;
     width: 125px;

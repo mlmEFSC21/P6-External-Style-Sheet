@@ -39,14 +39,10 @@ p {
     content: "";
     clear: both;
 }
-div.button {
-    width: auto;
-    margin: auto;
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.button {
     border: 1px solid black;
     border-radius: 4px;
     width: 125px;
