@@ -23,8 +23,7 @@ body {
     padding: 15px;
     font-size: 1.15rem;
 }
-.p1,
-.p2 {
+p {
     margin-bottom: 20px;
     padding: 10px;
     background-color: var(--clr-buttonBG);

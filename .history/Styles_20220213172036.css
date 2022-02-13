@@ -13,19 +13,15 @@
 }
 header {
     text-align: center;
-    border: 2px solid black;
-    background-color: var(--clr-buttonBG);
 }
 body {
     background-color: var(--clr-background);
     color: black;
     margin: 10px 25px;
     padding: 15px;
-    font-size: 1.15rem;
 }
-.p1,
-.p2 {
-    margin-bottom: 20px;
+p {
+    margin-bottom: 15px;
     padding: 10px;
     background-color: var(--clr-buttonBG);
 }
@@ -39,24 +35,22 @@ body {
     float: right;
     width: 50%;
 }
-
-.floatContainer::after {
+.p2::after {
     content: "";
     clear: both;
 }
 div.button {
     text-align: center;
+    margin-top: -15px;
+    background-color: hotpink;
 }
 a {
     text-decoration: none;
 }
 a.button {
-    padding: 10px;
     border: 1px solid black;
     border-radius: 4px;
     font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     background-color: var(--clr-buttonBG);
     color: var(--clr-button);
 }

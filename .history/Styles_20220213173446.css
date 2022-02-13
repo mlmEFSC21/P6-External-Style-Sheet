@@ -14,7 +14,6 @@
 header {
     text-align: center;
     border: 2px solid black;
-    background-color: var(--clr-buttonBG);
 }
 body {
     background-color: var(--clr-background);
@@ -23,8 +22,7 @@ body {
     padding: 15px;
     font-size: 1.15rem;
 }
-.p1,
-.p2 {
+p {
     margin-bottom: 20px;
     padding: 10px;
     background-color: var(--clr-buttonBG);
@@ -39,7 +37,10 @@ body {
     float: right;
     width: 50%;
 }
-
+.p1,
+.p2 {
+    max-width: 49%;
+}
 .floatContainer::after {
     content: "";
     clear: both;

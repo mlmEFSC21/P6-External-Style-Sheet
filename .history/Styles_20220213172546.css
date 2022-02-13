@@ -13,8 +13,6 @@
 }
 header {
     text-align: center;
-    border: 2px solid black;
-    background-color: var(--clr-buttonBG);
 }
 body {
     background-color: var(--clr-background);
@@ -23,26 +21,24 @@ body {
     padding: 15px;
     font-size: 1.15rem;
 }
-.p1,
-.p2 {
-    margin-bottom: 20px;
+p {
+    margin-bottom: 15px;
     padding: 10px;
     background-color: var(--clr-buttonBG);
 }
 .p1 {
     border: 2px solid black;
     float: left;
-    width: 50%;
+    width: 33%;
 }
 .p2 {
     border: 2px solid black;
     float: right;
-    width: 50%;
+    width: 33%;
 }
-
-.floatContainer::after {
+.p2::after {
     content: "";
-    clear: both;
+    /* clear: both; */
 }
 div.button {
     text-align: center;
@@ -51,6 +47,7 @@ a {
     text-decoration: none;
 }
 a.button {
+    float: left;
     padding: 10px;
     border: 1px solid black;
     border-radius: 4px;
